@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED01B93429AE718F00F8CB0A /* WeatherListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01B93329AE718F00F8CB0A /* WeatherListTableViewController.swift */; };
 		ED01B93629AE75FA00F8CB0A /* AddWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01B93529AE75FA00F8CB0A /* AddWeatherCityViewController.swift */; };
+		ED01B93929AF8CC400F8CB0A /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01B93829AF8CC400F8CB0A /* WeatherCell.swift */; };
 		EDDE77DD29A06502004D3CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE77DC29A06502004D3CAE /* AppDelegate.swift */; };
 		EDDE77DF29A06502004D3CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE77DE29A06502004D3CAE /* SceneDelegate.swift */; };
 		EDDE77E429A06502004D3CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDE77E229A06502004D3CAE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		ED01B93329AE718F00F8CB0A /* WeatherListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListTableViewController.swift; sourceTree = "<group>"; };
 		ED01B93529AE75FA00F8CB0A /* AddWeatherCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherCityViewController.swift; sourceTree = "<group>"; };
+		ED01B93829AF8CC400F8CB0A /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		EDDE77D929A06502004D3CAE /* GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDE77DC29A06502004D3CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDE77DE29A06502004D3CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		ED01B93729AF8B4100F8CB0A /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED01B93829AF8CC400F8CB0A /* WeatherCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		EDDE77D029A06502004D3CAE = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		EDDE77DB29A06502004D3CAE /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				ED01B93729AF8B4100F8CB0A /* Custom Cells */,
 				ED01B93229AE70CA00F8CB0A /* Controllers */,
 				EDDE77DC29A06502004D3CAE /* AppDelegate.swift */,
 				EDDE77DE29A06502004D3CAE /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 			files = (
 				ED01B93429AE718F00F8CB0A /* WeatherListTableViewController.swift in Sources */,
 				EDDE77DD29A06502004D3CAE /* AppDelegate.swift in Sources */,
+				ED01B93929AF8CC400F8CB0A /* WeatherCell.swift in Sources */,
 				ED01B93629AE75FA00F8CB0A /* AddWeatherCityViewController.swift in Sources */,
 				EDDE77DF29A06502004D3CAE /* SceneDelegate.swift in Sources */,
 			);
@@ -305,7 +317,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
