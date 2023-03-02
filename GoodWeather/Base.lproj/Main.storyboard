@@ -75,10 +75,45 @@
                     <view key="view" contentMode="scaleToFill" id="Xts-c9-UcK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FtE-oo-TDc">
+                                <rect key="frame" x="16" y="134" width="361" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="2n7-pf-Dp9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D29-gq-5rt">
+                                <rect key="frame" x="166" y="176" width="61" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <connections>
+                                    <action selector="saveCityButtonPressed" destination="3V2-uL-AWJ" eventType="touchUpInside" id="VMc-Qf-wCF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="m8l-U0-K1c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FtE-oo-TDc" firstAttribute="trailing" secondItem="Xts-c9-UcK" secondAttribute="trailingMargin" id="6or-Zb-KVa"/>
+                            <constraint firstItem="FtE-oo-TDc" firstAttribute="top" secondItem="m8l-U0-K1c" secondAttribute="top" constant="78" id="Ofx-Am-EgU"/>
+                            <constraint firstItem="FtE-oo-TDc" firstAttribute="leading" secondItem="Xts-c9-UcK" secondAttribute="leadingMargin" id="P4C-o4-yZW"/>
+                            <constraint firstItem="FtE-oo-TDc" firstAttribute="centerX" secondItem="D29-gq-5rt" secondAttribute="centerX" id="kDu-py-sMe"/>
+                            <constraint firstItem="D29-gq-5rt" firstAttribute="top" secondItem="FtE-oo-TDc" secondAttribute="bottom" constant="8" id="sZO-d6-ToL"/>
+                            <constraint firstItem="m8l-U0-K1c" firstAttribute="bottom" secondItem="D29-gq-5rt" secondAttribute="bottom" constant="538" id="t4f-o5-pmm"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add City" id="tzw-Vu-1cf"/>
+                    <navigationItem key="navigationItem" title="Add City" id="tzw-Vu-1cf">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="1l2-EC-Gae">
+                            <connections>
+                                <action selector="close" destination="3V2-uL-AWJ" id="L3D-OE-5cu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="FtE-oo-TDc" id="mbv-Oa-eKg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="isC-ew-yWv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
