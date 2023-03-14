@@ -17,6 +17,9 @@
 		EDDE77E429A06502004D3CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDE77E229A06502004D3CAE /* Main.storyboard */; };
 		EDDE77E629A06504004D3CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDE77E529A06504004D3CAE /* Assets.xcassets */; };
 		EDDE77E929A06504004D3CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDE77E729A06504004D3CAE /* LaunchScreen.storyboard */; };
+		EDF791A929C0EE3900FB104D /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */; };
+		EDF791AC29C0EEE300FB104D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791AB29C0EEE300FB104D /* Constants.swift */; };
+		EDF791AF29C0F07F00FB104D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791AE29C0F07F00FB104D /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		EDDE77E529A06504004D3CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDE77E829A06504004D3CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDE77EA29A06504004D3CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
+		EDF791AB29C0EEE300FB104D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDF791AE29C0F07F00FB104D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		EDDE77DB29A06502004D3CAE /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				EDF791AD29C0F02500FB104D /* Extensions */,
+				EDF791AA29C0EEC100FB104D /* Utils */,
+				EDF791A729C0EDFC00FB104D /* View Models */,
 				ED481BA429BA0885008C8C1B /* Models */,
 				ED6FB23F29B61184008E32AE /* Services */,
 				ED01B93729AF8B4100F8CB0A /* Custom Cells */,
@@ -109,6 +118,30 @@
 				EDDE77EA29A06504004D3CAE /* Info.plist */,
 			);
 			path = GoodWeather;
+			sourceTree = "<group>";
+		};
+		EDF791A729C0EDFC00FB104D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		EDF791AA29C0EEC100FB104D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDF791AB29C0EEE300FB104D /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDF791AD29C0F02500FB104D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDF791AE29C0F07F00FB104D /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,13 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF791AF29C0F07F00FB104D /* String+Extensions.swift in Sources */,
 				ED01B93429AE718F00F8CB0A /* WeatherListTableViewController.swift in Sources */,
+				EDF791A929C0EE3900FB104D /* AddWeatherViewModel.swift in Sources */,
 				EDDE77DD29A06502004D3CAE /* AppDelegate.swift in Sources */,
 				ED6FB24129B611A9008E32AE /* Webservice.swift in Sources */,
 				ED481BA629BA08EB008C8C1B /* WeatherResponse.swift in Sources */,
 				ED01B93929AF8CC400F8CB0A /* WeatherCell.swift in Sources */,
 				ED01B93629AE75FA00F8CB0A /* AddWeatherCityViewController.swift in Sources */,
 				EDDE77DF29A06502004D3CAE /* SceneDelegate.swift in Sources */,
+				EDF791AC29C0EEE300FB104D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

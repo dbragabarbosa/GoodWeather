@@ -17,16 +17,16 @@ class WeatherListTableViewController: UITableViewController
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
         
-        let resource = Resource(url: URL(string: "https://api.openweathermap.org/data/2.5/weather?q=houston&APPID=fc2c418735994aa977f78dd638795fd0&units=imperial")!) { data in
-            
-            return try? JSONDecoder().decode(WeatherResponse.self, from: data)
-        }
-        
-        Webservice().load(resource: resource) { weatherResponse in
-            if let weatherResponse = weatherResponse {
-                print(weatherResponse)
-            }
-        }
+//        let resource = Resource(url: URL(string: "https://api.openweathermap.org/data/2.5/weather?q=houston&APPID=fc2c418735994aa977f78dd638795fd0&units=imperial")!) { data in
+//
+//            return try? JSONDecoder().decode(WeatherResponse.self, from: data)
+//        }
+//
+//        Webservice().load(resource: resource) { weatherResponse in
+//            if let weatherResponse = weatherResponse {
+//                print(weatherResponse)
+//            }
+//        }
         
         
     }
