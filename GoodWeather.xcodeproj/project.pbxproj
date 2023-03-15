@@ -20,6 +20,7 @@
 		EDF791A929C0EE3900FB104D /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */; };
 		EDF791AC29C0EEE300FB104D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791AB29C0EEE300FB104D /* Constants.swift */; };
 		EDF791AF29C0F07F00FB104D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF791AE29C0F07F00FB104D /* String+Extensions.swift */; };
+		EDFBC30C29C1FB6D00094A0E /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBC30B29C1FB6D00094A0E /* WeatherListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
 		EDF791AB29C0EEE300FB104D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EDF791AE29C0F07F00FB104D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		EDFBC30B29C1FB6D00094A0E /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF791A829C0EE3900FB104D /* AddWeatherViewModel.swift */,
+				EDFBC30B29C1FB6D00094A0E /* WeatherListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				EDDE77DD29A06502004D3CAE /* AppDelegate.swift in Sources */,
 				ED6FB24129B611A9008E32AE /* Webservice.swift in Sources */,
 				ED481BA629BA08EB008C8C1B /* WeatherResponse.swift in Sources */,
+				EDFBC30C29C1FB6D00094A0E /* WeatherListViewModel.swift in Sources */,
 				ED01B93929AF8CC400F8CB0A /* WeatherCell.swift in Sources */,
 				ED01B93629AE75FA00F8CB0A /* AddWeatherCityViewController.swift in Sources */,
 				EDDE77DF29A06502004D3CAE /* SceneDelegate.swift in Sources */,
