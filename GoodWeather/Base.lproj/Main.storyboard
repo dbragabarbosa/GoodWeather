@@ -59,7 +59,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Settings" id="gsd-zq-aQW"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="h7n-bP-bw7">
                             <connections>
-                                <segue destination="19x-Oi-76s" kind="presentation" id="Jso-Qf-Oyq"/>
+                                <segue destination="19x-Oi-76s" kind="presentation" identifier="AddWeatherCityViewController" id="Jso-Qf-Oyq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
