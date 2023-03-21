@@ -22,6 +22,7 @@
 		8D5F0FC225F17EC20057F0A1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F0FC125F17EC20057F0A1 /* SettingsTableViewController.swift */; };
 		8DB2FDF825012583004CC5ED /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2FDF725012583004CC5ED /* WeatherResponse.swift */; };
 		8DCB661221B342090042CE6E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB661121B342090042CE6E /* Webservice.swift */; };
+		ED1AC93D29C9DFDA00D7EB4D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AC93C29C9DFDA00D7EB4D /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		8D5F0FC125F17EC20057F0A1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		8DB2FDF725012583004CC5ED /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		8DCB661121B342090042CE6E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		ED1AC93C29C9DFDA00D7EB4D /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				8D5F0FAD25F161B30057F0A1 /* AddWeatherViewModel.swift */,
 				8D5F0FBB25F164B70057F0A1 /* WeatherListViewModel.swift */,
+				ED1AC93C29C9DFDA00D7EB4D /* SettingsViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				8D5D959D21B31D71008DC2C2 /* AddWeatherCityViewController.swift in Sources */,
 				8DCB661221B342090042CE6E /* Webservice.swift in Sources */,
 				8D1307A421B31A15000DFB56 /* AppDelegate.swift in Sources */,
+				ED1AC93D29C9DFDA00D7EB4D /* SettingsViewModel.swift in Sources */,
 				8D5F0FC225F17EC20057F0A1 /* SettingsTableViewController.swift in Sources */,
 				8D5F0FB325F161FD0057F0A1 /* Constants.swift in Sources */,
 				8D5F0FBF25F177FF0057F0A1 /* Double+Extensions.swift in Sources */,
