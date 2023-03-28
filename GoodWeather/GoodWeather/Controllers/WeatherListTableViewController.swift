@@ -14,10 +14,17 @@ class WeatherListTableViewController: UITableViewController, AddWeatherDelegate
     
     private var weatherListViewModel = WeatherListViewModel()
     
+    private var lastUnitSelection: Unit!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let userDefaults = UserDefaults.standard
+        if let value = userDefaults.value(forKey: "unit") as? String {
+            self.lastUnitSelection = Unit(rawValue: value)!
+        }
     }
     
     func addWeatherDidSave(vm: WeatherViewModel) {
@@ -92,7 +99,12 @@ extension WeatherListTableViewController: SettingsDelegate
     
     func settingsDone(vm: SettingsViewModel)
     {
-        
+        if lastUnitSelection.rawValue != vm.selectedUnit.rawValue
+        {
+            weatherListViewModel.updateUnit(to: vm.selectedUnit)
+            tableView.reloadData()
+            lastUnitSelection = Unit(rawValue: vm.selectedUnit.rawValue)!
+        }
     }
     
 }
