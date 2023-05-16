@@ -32,6 +32,8 @@ class SettingsViewModel {
     
     let units = Unit.allCases
     
+    private var _selectedUnit: Unit = Unit.fahrenheit
+    
     var selectedUnit: Unit {
         get {
             let userDefaults = UserDefaults.standard

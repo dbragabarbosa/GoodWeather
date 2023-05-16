@@ -23,7 +23,7 @@
 		8D5F0FC525F1DDD10057F0A1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F0FC425F1DDD10057F0A1 /* SettingsViewModel.swift */; };
 		8DB2FDF825012583004CC5ED /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2FDF725012583004CC5ED /* WeatherResponse.swift */; };
 		8DCB661221B342090042CE6E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB661121B342090042CE6E /* Webservice.swift */; };
-		EDE526D12A1261A500991BEA /* GoodWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE526D02A1261A500991BEA /* GoodWeatherTests.swift */; };
+		ED3DD4422A13B3650051DA52 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		8D5F0FC425F1DDD10057F0A1 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		8DB2FDF725012583004CC5ED /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		8DCB661121B342090042CE6E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
 		EDE526CE2A1261A500991BEA /* GoodWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE526D02A1261A500991BEA /* GoodWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWeatherTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 		EDE526CF2A1261A500991BEA /* GoodWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
-				EDE526D02A1261A500991BEA /* GoodWeatherTests.swift */,
+				ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */,
 			);
 			path = GoodWeatherTests;
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE526D12A1261A500991BEA /* GoodWeatherTests.swift in Sources */,
+				ED3DD4422A13B3650051DA52 /* SettingsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
