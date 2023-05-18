@@ -24,6 +24,7 @@
 		8DB2FDF825012583004CC5ED /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2FDF725012583004CC5ED /* WeatherResponse.swift */; };
 		8DCB661221B342090042CE6E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB661121B342090042CE6E /* Webservice.swift */; };
 		ED3DD4422A13B3650051DA52 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */; };
+		EDAEAFF92A164FE3004C6626 /* WeatherListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEAFF82A164FE3004C6626 /* WeatherListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8DB2FDF725012583004CC5ED /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		8DCB661121B342090042CE6E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
+		EDAEAFF82A164FE3004C6626 /* WeatherListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModelTests.swift; sourceTree = "<group>"; };
 		EDE526CE2A1261A500991BEA /* GoodWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3DD4412A13B3650051DA52 /* SettingsViewModelTests.swift */,
+				EDAEAFF82A164FE3004C6626 /* WeatherListViewModelTests.swift */,
 			);
 			path = GoodWeatherTests;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3DD4422A13B3650051DA52 /* SettingsViewModelTests.swift in Sources */,
+				EDAEAFF92A164FE3004C6626 /* WeatherListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
